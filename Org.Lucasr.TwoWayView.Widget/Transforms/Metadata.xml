@@ -1,0 +1,12 @@
+<metadata>
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+  <attr path="/api/package[@name='org.lucasr.twowayview']" name="managedName">Org.Lucasr.TwoWayView</attr>
+  <attr path="/api/package[@name='org.lucasr.twowayview.widget']" name="managedName">Org.Lucasr.TwoWayView.Widget</attr>
+  <attr path="/api/package[@name='org.lucasr.twowayview.widget']/class[@name='BaseLayoutManager.LanedSavedState']" name="visibility">public</attr>
+</metadata>
